@@ -1,9 +1,9 @@
-import "./Details.css";
+import "./DetailsSection.css";
 import confidentIcon from "../../assets/confidence-icon.png";
 import checkIcon from "../../assets/check-icon.png";
 import investigationIcon from "../../assets/investigation-icon.png";
 
-export default function Details() {
+export default function DetailsSection() {
   return (
     <section className="details-section">
       {/* Review container */}
@@ -54,7 +54,15 @@ export default function Details() {
       </div>
 
       {/* Card container */}
-      <div className="card-container"></div>
+      <div className="card-container">
+        <h1 className="question">Have you or a loved one been affected by Mesothelioma?</h1>
+        <p>As a woman, you've carried the weight of care, love, and resilience. Now it’s time someone stands with you.</p>
+        <ul className="hero-list">
+          <li>Secondary Asbestos exposure is common</li>
+          <li>Misdiagnosis delays are more frequent in women</li>
+          <li>Women have won significant legal settlements</li>
+        </ul>
+      </div>
     </section>
   );
 }
