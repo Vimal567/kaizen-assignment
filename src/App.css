@@ -8,3 +8,21 @@ body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
 }
+
+.app-section {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 48% 48%;
+  column-gap: 4%;
+  place-content: center;
+  padding: 2% 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .app-section {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+  }
+}

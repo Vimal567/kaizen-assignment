@@ -1,0 +1,147 @@
+.details-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-section .review-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 3%;
+}
+
+.review-container .side-text {
+  text-align: end;
+  color: #000000ab;
+  margin-top: 5%;
+}
+
+.review-container .circle-container {
+  position: absolute;
+  width: 40%;
+  aspect-ratio: 1 / 1;
+  top: 25%;
+  left: 25%;
+}
+
+.review-container .circle-svg {
+  width: 100%;
+  height: 100%;
+  background-color: #2e4a7d;
+  border-radius: 50%;
+}
+
+.review-container .contact-us {
+  display: flex;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.contact-us button {
+  border: none;
+  background-color: #c49a6c;
+  color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.contact-us button:hover {
+  background-color: #caa782;
+}
+
+.contact-us button:last-child {
+  margin-left: -2px;
+  border-radius: 50%;
+}
+
+.review-container .glassy-container {
+  position: absolute;
+  width: 40%;
+  height: 94%;
+  top: 3%;
+  left: 3%;
+  background: rgba(240, 212, 189, 0.247);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 30px;
+  padding: 20px;
+  color: #000;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.glassy-container h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.glassy-container ul {
+  list-style: none;
+}
+
+.glassy-container ul li {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.glassy-container ul li span {
+  padding: 3%;
+  background-color: #bf8989;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin-right: 7px;
+}
+
+.glassy-container ul img {
+  width: 16px;
+  height: 16px;
+}
+
+.glassy-container .confidence {
+  background-color: #b2b7c5;
+}
+
+.glassy-container .fee {
+  background-color: #bcaebb;
+}
+
+.glassy-container .investigation {
+  background-color: #e4d2c0;
+}
+
+/* Breakpoints */
+@media screen and (max-width: 1200px) {
+  .glassy-container h1 {
+    font-size: 2.3rem;
+    font-weight: 500;
+  }
+
+  .glassy-container ul {
+    font-size: small;
+  }
+
+  .contact-us button {
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: medium;
+  }
+
+  .contact-us button:hover {
+    background-color: #caa782;
+  }
+
+  .contact-us button:last-child {
+    margin-left: -2px;
+    border-radius: 50%;
+  }
+}

@@ -1,10 +1,12 @@
 import './App.css';
+import Details from './components/Details/Details';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <section className="app-section">
+      <Details />
+      <div>claim form</div>
+    </section>
   );
 }
 
