@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* Background cover */
-  background-image: url(https://images.squarespace-cdn.com/content/v1/55adab46e4b0d3eba6318941/1602597866031-E7ZIHJL7WNF5A86ARDMU/Peace+Image.jpg);
+  background-image: url(./assets/background-image.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
